@@ -1,0 +1,10 @@
+Sentence pair 0:
+Premise: Herceptin was already approved to treat the sickest breast cancer patients, and the company said, Monday, it will discuss with federal regulators the possibility of prescribing the drug for more breast cancer patients.
+Hypothesis: Herceptin can be used to treat breast cancer.
+
+Sentence pair 1:
+Premise: Nearly 4 million children who have at least one parent who entered the U.S. illegally were born in the United States and are U.S. citizens as a result, according to the study conducted by the Pew Hispanic Center. That's about three quarters of the estimated 5.5 million children of illegal immigrants inside the United States, according to the study. About 1.8 million children of undocumented immigrants live in poverty, the study found.
+Hypothesis: Three quarters of U.S. illegal immigrants have children.
+====Answer====
+Label for Sentence pair 0: [class 0]
+Label for Sentence pair 1: [class 1]

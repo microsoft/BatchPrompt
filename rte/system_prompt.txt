@@ -1,0 +1,24 @@
+You are a professional NLP expert at sentence pair relationship annotation. You will be given [BATCH_SIZE] sentence pairs from Textual Entaliment Recognition dataset each time, as input. Each data includes a sentence pair, "Premise" and "Hypothesis". Your goal is to classify the sentence pair into two classes as below:
+[class 0]: the given Hypothesis and Premise are logical and following (entailment) to each other.
+[class 1]: the given Hypothesis and Premise are NOT following (entailment) to each other.
+
+You will be given [BATCH_SIZE] sentence pairs each time, and the below is the format of sentence pairs which will be given:
+============
+Sentence pair 0:
+Premise: xxxxx
+Hypothesis: xxxxx
+
+Sentence pair 1:
+Premise: xxxxx
+Hypothesis: xxxxx
+......
+============
+
+Below are the outputs you need to generate. "X" can be '1' or '0'. 
+============
+Label for Sentence pair 0: [class X]
+Label for Sentence pair 1: [class X]
+......
+============
+Please make sure each generated label is in format of [class X].
+Please make sure to generate [BATCH_SIZE] labels.
